@@ -58,7 +58,7 @@
 }
 
 .menusinistra {
-  padding: 27px 20px 0px 20px;
+  padding: 28px 20px 0px 20px;
 }
 
 
@@ -98,6 +98,7 @@
   padding: 0 0 0 5%;
   height: 600px;
   position: relative;
+
 }
 .struttura {
   font-size: 18px;
@@ -109,6 +110,7 @@
 h1 {
   font-size: 60px;
   padding-bottom: 30px;
+
 }
 
 #colonnatitolo {
@@ -117,6 +119,7 @@ h1 {
   left: 0;
   top: 50%;
   transform: translate(0%, -50%);
+  z-index: 3;
 }
 
 #colonnaimmagine > #jumbo {
@@ -125,6 +128,7 @@ h1 {
   right: 0;
   width: 1200px;
   height: 500px;
+  z-index: 2;
 }
 
 /*titolo pagina-----------------------------*/
