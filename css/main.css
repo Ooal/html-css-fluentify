@@ -86,11 +86,7 @@ a {
   color: white;
 }
 
-.grey {
-  /* debug */
-  height: 100px;
-  background-color: grey;
-}
+
 
 /*navbar------------------------------------*/
 
@@ -126,11 +122,29 @@ h1 {
   bottom:0;
   right: 0;
   width: 1400px;
-  height: 630px;
+  height: 600px;
 }
 
-
 /*titolo pagina-----------------------------*/
+
+/*grey----------------------------*/
+
+.grey {
+  padding: 30px;
+  background-color: #d3d3d3;
+  text-align: center;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+.grigio {
+  font-size: 30px;
+  color: #818181;
+  }
+
+/*grey----------------------------*/
 
 /*header------------------------------------------------------- */
 
