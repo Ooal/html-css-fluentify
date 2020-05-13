@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Jost', sans-serif;
 }
 
 .clearfix::after {
@@ -20,7 +21,7 @@
 .colore {
   /* debug */
   /*height: 350px;*/
-  background-color: lightblue;
+  background-color: #0c3259;
   color:white;
   font-weight: bold;
 }
@@ -30,15 +31,32 @@ a {
   color:white;
 }
 
+.logo {
+  float: left;
+  padding: 15px 50px 0px 20px;
+}
+
 .navsin {
   float: left;
 }
 
+.navdes {
+  float: right;
+}
+
 .menu {
-  padding: 20px;
   display: inline-block;
   font-size: 15PX;
 }
+
+.menudestra {
+  padding: 20px;
+}
+
+.menusinistra {
+  padding: 30px 20px 0px 20px;
+}
+
 
 .dime {
   height: 39px
@@ -51,17 +69,18 @@ a {
 .bottnav {
   width: 200px;
   height: 40px;
+  border-radius: 5px;
 }
 
 .trasp {
-  background-color: lightblue;
+  background-color: #0c3259;
   border: 2px solid white;
   color: white;
 }
 
 .verde {
-  background-color: lightgreen;
-  border: 2px solid lightgreen;
+  background-color: #7dbb02;
+  border: 2px solid #7dbb02;
   color: white;
 }
 
