@@ -5,17 +5,64 @@
   box-sizing: border-box;
 }
 
-
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
 .centratura {
   padding: 0 5%;
 }
 
+/*header */
 
 .colore {
   /* debug */
-  height: 350px;
+  /*height: 350px;*/
   background-color: lightblue;
+  color:white;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color:white;
+}
+
+.navsin {
+  float: left;
+}
+
+.menu {
+  padding: 20px;
+  display: inline-block;
+  font-size: 15PX;
+}
+
+.dime {
+  height: 39px
+}
+
+.navdes {
+  float: right;
+}
+
+.bottnav {
+  width: 200px;
+  height: 40px;
+}
+
+.trasp {
+  background-color: lightblue;
+  border: 2px solid white;
+  color: white;
+}
+
+.verde {
+  background-color: lightgreen;
+  border: 2px solid lightgreen;
+  color: white;
 }
 
 .grey {
@@ -23,6 +70,10 @@
   height: 100px;
   background-color: grey;
 }
+
+/*header */
+
+
 
 
 /* parte principale */
