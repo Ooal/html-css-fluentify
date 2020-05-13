@@ -1,0 +1,45 @@
+/* regole generali */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+.centratura {
+  padding: 0 5%;
+}
+
+
+.colore {
+  /* debug */
+  height: 350px;
+  background-color: lightblue;
+}
+
+.grey {
+  /* debug */
+  height: 100px;
+  background-color: grey;
+}
+
+
+/* parte principale */
+.sezione1 {
+  /* debug */
+  height: 300px;
+  background-color: green;
+}
+
+.sezione2 {
+  /* debug */
+  height: 300px;
+  background-color: red;
+}
+
+.sezione3 {
+  /* debug */
+  height: 150px;
+  background-color: grey;
+}
