@@ -195,7 +195,7 @@ hr {
 
 
 .sinistra2, .destra2 {
-  width: 30%;
+  width: 35%;
 }
 
 .sinistra2 {
@@ -221,8 +221,34 @@ h4 {
 }
 
 
-
 /*second sezione di contenuto---------------------------*/
+
+/*terzo sezione di contenuto---------------------------*/
+
+.destra3 {
+  float: right;
+  margin-top: 40px;
+}
+.bottnav2 {
+
+  display: block;
+  width: 200px;
+  height: 40px;
+  border-radius: 5px;
+}
+.bottnav3 {
+  margin: 25px 50px;
+  display: block;
+  width: 100px;
+  height: 40px;
+  border-radius: 5px;
+}
+
+.destrasono {
+  margin: 25px 50px;
+}
+
+/*terzo sezione di contenuto---------------------------*/
 
 /* parte principale */
 
