@@ -16,7 +16,9 @@
   padding: 0 5%;
 }
 
-/*header */
+/*header------------------------------------------------------- */
+
+/*navbar------------------------------------*/
 
 .colore {
   /* debug */
@@ -33,7 +35,7 @@ a {
 
 .logo {
   float: left;
-  padding: 15px 50px 0px 20px;
+  padding: 15px 50px 0px 0px;
 }
 
 .navsin {
@@ -46,7 +48,7 @@ a {
 
 .menu {
   display: inline-block;
-  font-size: 15PX;
+  font-size: 15px;
 }
 
 .menudestra {
@@ -90,7 +92,47 @@ a {
   background-color: grey;
 }
 
-/*header */
+/*navbar------------------------------------*/
+
+/*titolo pagina-----------------------------*/
+
+.centraturatitolo {
+  padding: 0 0 0 5%;
+  height: 800px;
+  position: relative;
+}
+.struttura {
+  font-size: 18px;
+  width: 220px;
+  height: 70px;
+  border-radius: 5px;
+}
+
+h1 {
+  font-size: 80px;
+  padding-bottom: 30px;
+}
+
+#colonnatitolo {
+  width: 40%;
+  position: relative;
+  left: 0;
+  top: 50%;
+  transform: translate(0%, -50%);
+}
+
+#colonnaimmagine > #jumbo {
+  position: absolute;
+  bottom:0;
+  right: 0;
+  width: 1400px;
+  height: 630px;
+}
+
+
+/*titolo pagina-----------------------------*/
+
+/*header------------------------------------------------------- */
 
 
 
